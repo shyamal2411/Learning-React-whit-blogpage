@@ -1,13 +1,11 @@
 import React from "react";
 import "./App.css";
-import Slider from "./Slide";
+import Header from "./Header";
 
 
 class App extends React.Component{
   render(){
-    return(
-      Slider()
-      );
+    return <Header/>;
   }
 }
 export default App;
