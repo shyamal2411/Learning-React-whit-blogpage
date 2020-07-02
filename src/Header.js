@@ -1,19 +1,19 @@
 import React from "react";
 import './App.css';
-//import logo from '../public/Recurso-1.png';
+import logo from './Recurso-1.png';
 
 function Header() {
     return (
         <div className="app-header">
-            <div className="logo">
-            	<a href="#" alt="Profe-Ana"><img src=""></img></a>
+            <div className="contentLogo">
+                <a href="/"><img src={logo} alt="Profe-Ana" className="img"/></a>
             </div>
-            <div>
-                <div>
-                    <a href="" className="list">ENTRAR</a>
-                    <a href="" className="list">INICIO</a>
-                    <a href="" className="list">BLOG</a>
-                    <a href="" className="list">SOBRE MI</a>
+            <div className="content-listas">
+                <div className="listas">
+                    <a href="/" className="list"><b>ENTRAR</b></a>
+                    <a href="/" className="list"><b>INICIO</b></a>
+                    <a href="/" className="list"><b>BLOG</b></a>
+                    <a href="/" className="list"><b>SOBRE MI</b></a>
                 </div>
             </div>
         </div>
