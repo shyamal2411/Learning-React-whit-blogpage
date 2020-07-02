@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+.icon{
+    background: #9873FF;
+    height: 30px;
+}
+
+.iconlist{
+    text-align: center;
+    margin: 15px;
+}
