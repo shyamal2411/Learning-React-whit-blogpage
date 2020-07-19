@@ -1,12 +1,19 @@
-*{
-    margin: 0;
-}
 .icon{
     background: #9873FF;
     height: 30px;
+
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: right;
+    margin: auto 30px;
 }
 
 .iconlist{
     text-align: center;
-    margin: 15px;
+    margin: 5px 20px;
+}
+.iconlist:hover{
+    opacity:50%;
 }
