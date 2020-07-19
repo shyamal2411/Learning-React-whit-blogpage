@@ -1,5 +1,5 @@
 import React from "react";
-import './stilosHeader.css';
+import './Stilos.css';
 import logo from './imagenes/Logo-nombre.png';
 
 function Header() {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./stilosHeader.css";
+import "./Stilos.css";
 import Header from "./Header";
 import SocialBar from "./SocialBar";
 import PortadaImg from "./portada";
