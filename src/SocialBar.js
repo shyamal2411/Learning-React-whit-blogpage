@@ -7,7 +7,7 @@ import './stilosSocialBar.css'
 
 function SocialBar() {
     return (
-        <div className="icon">
+        <div className="socialMediacontent">
             <div className="socialMedia">
             <a href="/" className="iconlist"><img src={facebookico} alt="facebookicon"/></a>
             <a href="/" className="iconlist"><img src={whatsappico} alt="whatsappicon"/></a>

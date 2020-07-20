@@ -4,8 +4,8 @@ import logo from './imagenes/Logo-nombre.png';
 
 function Header() {
     return (
-        <div className="app-header">
-            <div className="contentLogo">
+        <nav className="nav">
+            <div className="logoContent">
                 <a href="/"><img src={logo} alt="Profe-Ana" className="img"/></a>
             </div>
             <div className="content-listas">
@@ -16,7 +16,7 @@ function Header() {
                     <a href="/" className="list"><b>SOBRE MI</b></a>
                 </div>
             </div>
-        </div>
+        </nav>
     );
 }
 
