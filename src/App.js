@@ -3,6 +3,7 @@ import "./Stilos.css";
 import Header from "./Header";
 import SocialBar from "./SocialBar";
 import PortadaImg from "./portada";
+import QuienSoy from "./section";
 
 
 class App extends React.Component{
@@ -12,6 +13,7 @@ class App extends React.Component{
       <SocialBar/> 
       <Header/>
       <PortadaImg/>
+      <QuienSoy/>
     </>
     );
   }
